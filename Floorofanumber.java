@@ -4,6 +4,7 @@ public class Floorofanumber {
         int target=16;
         System.out.println(flooring(a,target));
     }
+    //returning index of the number.
     static int flooring(int a[],int target){
         int s=0,e=a.length-1;
         while(s<=e){
@@ -12,7 +13,7 @@ public class Floorofanumber {
                 return -1;
             }
             if(target==a[m]){
-                return a[m];
+                return m;
             }
             else if(target>a[m]){
                 s=m+1;
@@ -21,6 +22,6 @@ public class Floorofanumber {
                 e=m-1;
             }
         }
-        return a[e];
+        return e;
     }
 }
