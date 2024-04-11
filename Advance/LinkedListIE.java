@@ -44,7 +44,7 @@ class LL{
 public class LinkedListIE {
     public static void main(String[] args) {
         LL list = new LL();
-        // list.insertFirst(1);
+        list.insertFirst(1);
         list.insertEnd(2);
         list.insertEnd(3);
         list.insertEnd(4);
