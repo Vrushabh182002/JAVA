@@ -1,4 +1,3 @@
-package Advance;
 //Inserting from the head node.
 class Node{
     int data;
