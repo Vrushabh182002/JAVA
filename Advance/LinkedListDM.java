@@ -81,7 +81,7 @@ class LL{
             deleteF();
             return;
         }
-        if(pos==size-2){
+        if(pos==size-1){
             deleteE();
             return;
         }
